@@ -1,2 +1,3 @@
 # PRACTICA 1:PREPARACION DE LAS PRACTICAS.
 ## 1 Sesión.
+#dsdsdq
