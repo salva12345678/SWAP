@@ -28,11 +28,24 @@ Ahora debemos ver la versión del **Apache** instalado y ver si está en ejecuci
 
 Tenemos que crearnos un *Html* en el directorio  **/var/www** y con el comando *curl* mostrar el fichero por pantalla.
 
-Básicamente en cada máquina virtual hacemos un *curl* de la dirección del servidor añadiendo el nombre del fichero--> curl htpp://192.168.1.100/hola.html
+Básicamente en cada máquina virtual hacemos un *curl* de la dirección del servidor añadiendo el nombre del fichero--> curl htpp://192.168.1.100/hola.html y curl htpp://192.168.1.102/hola.html
 
-Maquina 1:
+**Maquina 1:**
+
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_6.png)
 
-Maquina 2:
+**Maquina 2:**
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_7.png)
+
+Por último tenemos que comprobar que funciona el *ssh* para desde la máquina 1 o 2  poder conectarnos a la otra o viceversa.
+
+Lo unico que tenemos que hacer es desde la *Maquina 1* y la *Máquina 2* --> ssh 192.168.1.100 y ssh 192.168.1.102 de forma respectiva.
+
+**Maquina 1:**
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_8.png)
+
+**Maquina 2:**
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_9.png)
