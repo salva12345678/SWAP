@@ -10,6 +10,8 @@ Para ello hemos decidido usar el **VirtualBox**.
 Cuando hemos terminado de instalar las máquinas virtuales tenemos que asignarle una **IP** a cada máquina virtual.Para ello nos metemos en cada máquina en el fichero:*/etc/network/interface*.
 
 Añadimos en el **enp0s8**.
+Tenemos que decir que a cada máquina se le ha asignado una **IP** distinta.Maquina 1(192.168.1.100) y Maquina 2(192.168.1.101) 
+
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_2.png)
 
