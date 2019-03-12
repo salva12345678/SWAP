@@ -15,4 +15,6 @@ Añadimos en el **enp0s8**.
 
 Después de ello tenemos que reiniciar el servicio ya que sino no tendremos servicio a internet.
 
-Para ello escribimos en la terminal-->*systemctl restart networking.service*
+Para ello escribimos en la terminal-->*systemctl restart networking.service*.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_3.png)
