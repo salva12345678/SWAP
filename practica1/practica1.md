@@ -1,4 +1,4 @@
-# PRACTICA 1:PREPARACION DE LAS PRACTICAS.
+# PRACTICA 1:PREPARACIÓN DE LAS PRACTICAS.
 ## 1 Sesión.
 
 La practica consiste en llevar a cabo la instalación de dos máquinas virtuales y que tengamos instalado el **Apache**,**Php** y **Mysql**.
@@ -14,7 +14,7 @@ Tenemos que decir que a cada máquina se le ha asignado una **IP** distinta.Maqu
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica1/foto_2.png)
 
-Después de ello tenemos que reiniciar el servicio ya que sino no tendremos servicio a internet.
+Después de ello tenemos que reiniciar el servicio ya que sino no tendremos servicio a Internet.
 
 Para ello escribimos en la terminal-->*systemctl restart networking.service*.
 
@@ -40,7 +40,7 @@ Básicamente en cada máquina virtual hacemos un *curl* de la dirección del ser
 
 Por último tenemos que comprobar que funciona el *ssh* para desde la máquina 1 o 2  poder conectarnos a la otra o viceversa.
 
-Lo unico que tenemos que hacer es desde la *Maquina 1* y la *Máquina 2* --> ssh 192.168.1.100 y ssh 192.168.1.102 de forma respectiva.
+Lo único que tenemos que hacer es desde la *Maquina 1* y la *Máquina 2* --> ssh 192.168.1.100 y ssh 192.168.1.102 de forma respectiva.
 
 **Maquina 1:**
 
