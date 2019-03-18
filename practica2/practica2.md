@@ -17,7 +17,7 @@ El objetivo de la práctica son:
 
 Desde las dos maquinas virtuales que tenemos que pasar un directorio y mediante ssh del equipo que queremos enviar en un tar.gz.
 
-Nosotros enviaremos un directorio desde la maquina1 a la maquina2.Esta podremos reconorcerla por la IP.
+Nosotros enviaremos un directorio desde la *maquina-1* a la *maquina-2*.Esta podremos reconorcerla por la IP.
 
 Pondremos el siguiente comando:
 
@@ -25,14 +25,15 @@ Pondremos el siguiente comando:
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica2/foto_1.png)
 
+Desde la *maquina-2* ejecutamos el comando para descomprimirlo:
 
-maquina2:
-tar -xvf tar.tgz //nos muestra el paquete
+-->tar -xvf tar.tgz
 
-primera parte echa.
+![img](https://github.com/salva12345678/SWAP/blob/master/practica2/foto_2.png)
 
-maquina1
+Observamos que el paquete.txt lo tenemos.
 
+**2.Clonar contenido entre máquinas**
 
 
 para la clave
