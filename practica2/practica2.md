@@ -23,10 +23,8 @@ Pondremos el siguiente comando:
 
 -->tar czf - ./hola/paquete.txt | ssh 192.168.1.102 'cat > ~/tar.tgz'
 
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/Foto_1.png)
+![img](https://github.com/salva12345678/SWAP/blob/master/practica2/Foto_1.png)
 
-comandos:
-maquina1:
 
 maquina2:
 tar -xvf tar.tgz //nos muestra el paquete
