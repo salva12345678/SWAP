@@ -13,7 +13,7 @@ El objetivo de la práctica son:
 4.Establecer tareas en *cron*
 
 
-**1 Aprender a copiar archivos mediante ssh**
+**1.Aprender a copiar archivos mediante ssh**
 
 Desde las dos maquinas virtuales que tenemos que pasar un directorio y mediante ssh del equipo que queremos enviar en un tar.gz.
 
