@@ -40,6 +40,9 @@ Sin embargo, esto que puede ser útil en un momento dado, no nos servirá para s
 Para clonar el contenido haremos uso de la herramienta **rsync**.Lo primero que debemos hacer es llevar a cabo su instalación:
 
 -->sudo apt-get install rsync
+~~~
+hola
+~~~
 
 Lo primero que tenemos que hacer es darle permiso al directorio donde vamos a clonar la información y en el directorio donde vamos a tenerlo.Además vamos a crear algunos ficheros para que podamos clonarlos.
 
@@ -49,6 +52,11 @@ Ahora ya podemos clonar la información escribiendo el siguiente comando:
 -->rsync -avz -e ssh 192.168.1.100:/var/www/ /var/www/
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica2/foto_4.png)
+
+Ahora miramos desde la *máquina-2* para comprobar que están los ficheros con el siguiente comando:
+
+-->ls /var/www
+
 
 para la clave
 en ambas generamos la clave
