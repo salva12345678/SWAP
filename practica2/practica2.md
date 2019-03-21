@@ -2,7 +2,7 @@
 # PRACTICA 2: CLONAR LA INFORMACIÓN DE UN SITIO WEB
 ## 2 Sesión.
 
-El objetivo de la práctica son:
+Los objetivos de la práctica son:
 
 1.Aprender a copiar archivos mediante *ssh*
 
