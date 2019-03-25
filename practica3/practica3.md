@@ -60,4 +60,16 @@ Ahora llevaremos a cabo la configuración del *balanceador*.
 
 Como fue el caso de **nginx** podemos modificar la configuración para repartir el trabajo.
 
-Lo interesante es someter a las máquinas virtuales a una alta carga de trabajo y ver como se reparten el trabajo.Para ello se va usar el **Apache Benchmark (ab)** en una *maquina-4* que actúe como cliente.
+Lo interesante es someter a las máquinas virtuales a una alta carga de trabajo y ver como se reparten el trabajo.Para ello se va usar el **Apache Benchmark (ab)** en una *máquina-4* que actúe como cliente.
+
+Para ello hemos creado otra máquina virtual de modo que tenemos 2 *balanceadores* para que uno de trabaje con **nginx** y el otro con **haproxy**.
+
+**haproxy:**
+
+Abrimos la *máquina-cliente* para lanzar la orden y ver el resultado.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_6.png)
+
+Con el **htop** vemos la *máquina1* y *máquina2*  
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_5.png)
