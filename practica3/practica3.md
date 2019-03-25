@@ -68,8 +68,26 @@ Para ello hemos creado otra máquina virtual de modo que tenemos 2 *balanceadore
 
 Abrimos la *máquina-cliente* para lanzar la orden y ver el resultado.
 
+~~~
+ab -n 1000 -c 10 http://192.168.1.103/index.html
+~~~
+
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_6.png)
 
 Con el **htop** vemos la *máquina1* y *máquina2*  
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_5.png)
+
+**nginx**
+
+Abrimos la *máquina-cliente* para lanzar la orden y ver el resultado.
+
+~~~
+ab -n 1000 -c 10 http://192.168.1.103/index.html
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_8.png)
+
+Con el **htop** vemos la *máquina1* y *máquina2*
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_7.png)
