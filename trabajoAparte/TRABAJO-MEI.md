@@ -59,6 +59,10 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
       Puerto de salida S/PDIF: Si.
 
 -->Conexión:
+
       Ethernet: Si.
       Tipo de interfaz ethernet: Gigabit Ethernet.
       Controlador LAN: Intel® I219-V.
+
+
+[Enlace del producto](https://www.pccomponentes.com/asus-rog-maximus-xi-apex)
