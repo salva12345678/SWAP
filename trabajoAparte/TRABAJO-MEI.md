@@ -8,7 +8,7 @@ Actualmente podemos encontrar esta gran diferencia en el mercado en las placas b
 
 ### SOCKET 1151.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/Socket_1151.jpg)
+![img](./Socket_1151.jpg)
 
 Dentro de este tipo de tecnología podemos encontrar que soportan dos tecnologías dentro de los procesadores de **INTEL** los procesadores de séptima generación(Kaby Lake) , los de octava generación(Coffee Lake) y los de Skylake.
 
@@ -23,7 +23,7 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 **Asus Rog Maximus XI Apex**
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_1.png)
+![img](./foto_1.png)
 
 -->Precio:420,34€.
 
@@ -70,7 +70,7 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 **MSI Mpg Z390 Gaming Plus**
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_2.png)
+![img](./foto_2.png)
 
 -->139,90€.
 
@@ -98,7 +98,7 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 **NZXT N7 Z370 Blanco**
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_3.png)
+![img](./foto_3.png)
 
 -->274€.
 
@@ -135,7 +135,7 @@ Podemos que tenemos muchos modelos para en los de gama alta vemos que podemos op
 
 ### SOCKET AM4.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/Socket_AM4.png)
+![img](./Socket_AM4.png)
 
 Estos socket son utilizados por los  microprocesadores Ryzen basados en la microarquitectura Zen.
 
@@ -151,7 +151,7 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 **Asrock Fatal1ty X370 Gaming X**
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_4.png)
+![img](./foto_4.png)
 
 -->79,99€.
 
@@ -185,7 +185,7 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 **Gigabyte Aorus X470 Ultra Gaming**
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_5.png)
+![img](./foto_5.png)
 
 -->129,91€
 
