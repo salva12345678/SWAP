@@ -66,3 +66,72 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 
 [Enlace del producto](https://www.pccomponentes.com/asus-rog-maximus-xi-apex)
+
+**MSI Mpg Z390 Gaming Plus**
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_2.png)
+
+-->139,90€.
+
+-->La placa gaming MSI Mpg Z390 Gaming Plus tiene socket Intel 1151 y soporta procesadores Intel de 8ª y 9ª generación.
+
+-->Memoria:
+
+      Memoria interna máxima: 64 GB de DDR4.
+      Soporta el modo de doble canal.
+      Soporta memoria no-ECC, sin memoria intermedia.
+      Soporta Intel® Extreme Memory Profile (XMP).
+
+-->Ranuras:
+
+      2 x ranuras PCIe 3.0 x16
+      4 x ranuras PCIe 3.0 x1
+      1 ranura M.2 con llave E para el módulo Intel® Wireless-AC (CNVi) integrado únicamente
+
+-->Gráficos:
+
+      1 x puerto HDMI ™, admite una resolución máxima de 4096x2160 a 24Hz
+      1 x puerto DVI-D, admite una resolución máxima de 1920x1200 @ 60Hz
+
+[Enlace del producto](https://www.pccomponentes.com/msi-mpg-z390-gaming-plus)
+
+**NZXT N7 Z370 Blanco**
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_3.png)
+
+-->274€.
+
+-->LGA socket 1151 for Intel® 8th Generation Core™ i7/ Core™ i5/ Core™ i3.
+
+-->Support Intel 14nm CPU.
+
+-->Support Intel Turbo Boost Technology 2.0.
+
+-->Memoria:
+
+      4xDIMM, Max. 64 GB, DDR4.
+      Arquitectura de memoria de doble canal
+      Soporte Intel® Extreme Memory Profile (XMP)
+
+-->Ranuras de expansión:
+
+      2 * PCIe 3.0 x16 (x16 or dual x8)
+      2 * PCIe 3.0 x4
+      1 * PCIe 3.0 x1
+
+-->Gráficos:
+
+      Soporte de salida multi-VGA: puertos HDMI / DisplayPort 1.2
+      DisplayPort con max. Resolución de 4096x2304 a 60Hz.
+      HDMI ™ con máx. Resolución de 4096x2160 a 24Hz.
+      Memoria máxima compartida de 1024MB
+
+[Enlace del producto](https://www.pccomponentes.com/nzxt-n7-z370-blanco)
+
+Podemos que tenemos muchos modelos para en los de gama alta vemos que podemos optar a la opción de overclocking.
+
+
+
+### SOCKET AM4.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/Socket_AM4.png)
