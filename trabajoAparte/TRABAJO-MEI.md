@@ -38,3 +38,27 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
       Número de ranuras de memoria: 2.
       Capacidades del módulo de memoria soportadas: 2GB,4GB,8GB,16GB,32GB.
       Memoria interna máxima: 64 GB.
+
+-->BIOS:
+
+      Tipos de BIOS: UEFI.
+      Jumper Clear CMOS: Si.
+      BIOS interruptor de botón: Si.
+
+-->Gráficos:
+
+      Máxima resolución: 4096 x 2304 Pixeles.
+
+-->Panel trasero Puertos de I/O (entrada/salida):
+
+      Cantidad de puertos tipo A USB 3.0 (3.1 Gen 1): 4.
+      Cantidad de puertos tipo A USB 3.1 (3.1 Gen 2): 6.
+      Puerto de ratón PS/2: 2.
+      Salidas para auriculares: 1.
+      Micrófono, jack de entrada: Si.
+      Puerto de salida S/PDIF: Si.
+
+-->Conexión:
+      Ethernet: Si.
+      Tipo de interfaz ethernet: Gigabit Ethernet.
+      Controlador LAN: Intel® I219-V.
