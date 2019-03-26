@@ -1,5 +1,6 @@
 # PRACTICA 2: ELECCIÓN DE COMPONENTES PARA UN PC.
 ## PLACA BASE:ORIENTADOS A PROCESADORES INTEL vs AMD.
+### JUAN SALVADOR MOLINA MARTÍN.
 
 En la gran variedad de placas base que podemos ver en el mercado encontramos dos grupos orientados a los procesadores **INTEL** y **AMD**.
 
@@ -222,4 +223,4 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 [Enlace del producto](https://www.pccomponentes.com/gigabyte-x399-aorus-xtreme)
 
-Como hemos visto según los fabricantes podemos ver una gran diferencia de placas bases según el tipo de socket actual que podemos encontrar en el mercado.Hemos visto que gran parte de ellos ofrecen lo mismo como es la capacidad de DDR4 hasta 64gb y que nos tenemos que irnos a gamas más altas para el uso del overclocking. 
+Como hemos visto según los fabricantes podemos ver una gran diferencia de placas bases según el tipo de socket actual que podemos encontrar en el mercado.Hemos visto que gran parte de ellos ofrecen lo mismo como es la capacidad de DDR4 hasta 64gb y que nos tenemos que irnos a gamas más altas para el uso del overclocking.
