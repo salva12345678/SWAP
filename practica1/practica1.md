@@ -1,4 +1,3 @@
-set
 # PRACTICA 1:PREPARACIÓN DE LAS PRACTICAS.
 ## 1 Sesión.
 
