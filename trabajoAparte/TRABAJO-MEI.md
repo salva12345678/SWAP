@@ -32,11 +32,9 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 -->Optimización de 5 vías: ajuste automatizado de todo el sistema, proporcionando Overclocking de AI y perfiles de enfriamiento a medida para su equipo.
 
-Memoria:
-      Tipos de memoria compatibles: DDR4-SDRAM.
+-->Memoria:
 
+      Tipos de memoria compatibles  DDR4-SDRAM.
       Número de ranuras de memoria: 2.
-
       Capacidades del módulo de memoria soportadas: 2GB,4GB,8GB,16GB,32GB.
-
       Memoria interna máxima: 64 GB.
