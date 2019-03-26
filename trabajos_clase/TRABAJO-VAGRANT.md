@@ -1,5 +1,9 @@
 # CREACIÓN DE MÁQUINAS VIRTUALES CON VAGRANT.
-## 1
+##
+
+En la segunda parte del documento veremos de forma practica y sencilla como podemos desplegar nuestras máquinas virtuales y trabajar con ellas como hemos podido ver en las practicas.
+
+
 
 
 
