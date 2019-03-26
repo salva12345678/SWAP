@@ -22,7 +22,7 @@ Si nos fijáramos en la gama podemos ver estos ejemplos de los fabricantes.
 
 **Asus Rog Maximus XI Apex**
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_1.jpg)
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajoAparte/foto_1.png)
 
 -->Precio:420,34€.
 
