@@ -53,3 +53,39 @@ Tenemos que copiar los archivos **apache.crt** y **apache.key** a la otra *máqu
 **Máquina-balanceador:**
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica4/foto_4.png)
+
+Activamos el sitio default-ssl  en la segunda máquina virtual y reiniciamos apache:
+
+~~~
+a2ensite default-ssl
+
+service apache2 reload
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica4/foto_5.png)
+
+Después, en el balanceador **nginx** debemos añadir lo siguiente al archivo:
+
+~~~
+/etc/nginx/conf.d/default.conf
+~~~
+
+Y lo reiniciamos:
+
+~~~
+sudo systemctl restart nginx
+~~~
+
+Y ahora hacemos la petición
+
+~~~
+curl -k https://192.168.1.103/hola.html
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica4/foto_6.png)
+
+**2.Configurar las reglas del cortafuegos para proteger la granja web.**
+
+Creamos el script para asegurar el acceso .Nos lo creamos en la *máquina-1*
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica4/foto_7.png)
