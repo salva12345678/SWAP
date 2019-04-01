@@ -30,7 +30,7 @@ Al crear varios recursos a partir de un único equipo o servidor, la virtualizac
       Los sistemas de respaldo de datos son más eficientes y económicos, y las opciones de tener sitio de contingencia son más sencillas.
       Al incorporarse herramientas de orquestación o automatización, se aumenta el uso, el control y la eficiencia del entorno virtual.
 
-**Aumento de los costos iniciales:1**
+**Aumento de los costos iniciales:**
 
       La inversión en software para gestionar servidores virtuales.
       Es necesario realizar un estudio previo para conocer cuáles serán los gastos de implementación.
@@ -44,7 +44,6 @@ Al crear varios recursos a partir de un único equipo o servidor, la virtualizac
 
       Dado que los servidores virtuales corren en una capa intermedia a la del hardware real el rendimiento será inferior que mediante el uso de servidores tradicionales.
       Por otro lado, si instalas muchas máquinas virtuales en un solo servidor físico acabarás saturando el mismo, lo cual también implicará una reducción considerable del rendimiento. Es importante que solo se creen las máquinas virtuales indispensables, ni una más.
-      De nuevo debemos mencionar la importancia de realizar un estudio previo que te permita prever qué cantidad de servidores y recursos necesitarás para que el rendimiento sea el adecuado.
 
 En el mundo de la virtualización podemos encontrar diferentes tipos de técnicas por las cuales podemos obtener bastantes ventajas unas respecto a otras:
 
