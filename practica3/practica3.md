@@ -91,3 +91,27 @@ ab -n 1000 -c 10 http://192.168.1.103/index.html
 Con el **htop** vemos la *máquina1* y *máquina2*
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_7.png)
+
+
+Ahora como parte opcional usaremos otro tipo de *balanceador* de carga llamado **pound**.
+
+Como en el caso anterior volveremos a instalar el *balanceador*.
+
+~~~
+sudo apt-get install pound
+~~~
+
+Nos fijamos en el archivo de configuración en la dirección */etc/pound/pound.cfg* y le añadimos la siguiente configuración.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_9.png)
+
+Tenemos que reiniciar el servicio del pound.
+
+~~~
+sed -i 's/^startup=0/startup=1/' /etc/default/pound
+systemctl restart pound
+~~~
+
+Ahora solo tenemos que probar que nuestro balanceador funcione correctamente.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica3/foto_10.png)
