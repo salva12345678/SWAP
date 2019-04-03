@@ -89,3 +89,29 @@ curl -k https://192.168.1.103/hola.html
 Creamos el script para asegurar el acceso .Nos lo creamos en la *máquina-1*
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica4/foto_7.png)
+
+Le damos permiso de ejecución al fichero configuracion.sh:
+
+~~~
+chmod 755 configuracion.sh
+~~~
+
+Y ahora lo podemos ejecutar:
+
+~~~
+sudo ./configuracion.sh
+~~~
+
+Y para ver la información de los puertos ponemos:
+
+~~~
+sudo iptables -L -n -v
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica4/foto_8.png)
+
+Desde la *máquina-balanceador* hacemos peticiones para comprobar los diferentes tipos de acceso.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica4/foto_9.png)
+
+Podemos ver perfectamente que nos deja hacer peticiones https,a la hora de hacer un ping a la direccion 192.168.1.100 donde hemos ejecutado el script y no nos deja y que si nos deja acceder por ssh a nuestra máquina.

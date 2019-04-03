@@ -32,7 +32,7 @@ Al crear varios recursos a partir de un único equipo o servidor, la virtualizac
 
 **Aumento de los costos iniciales:**
 
-      La inversión en software para gestionar servidores virtuales.
+      La elevada inversión en software para gestionar servidores virtuales.
       Es necesario realizar un estudio previo para conocer cuáles serán los gastos de implementación.
       Tienes la opción de alquilar los servidores a una empresa proveedora pero debes asegurarte de que la empresa contratada asegure al 100 % los datos de tu negocio.
 
