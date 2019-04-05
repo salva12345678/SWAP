@@ -80,10 +80,39 @@ mysql> quit
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_5.png)
 
-Desde la *maquina-2*
+Desde la *maquina-2*.
+
+~~~
 scp maquina1:/tmp/ejemplodb.sql /tmp/
+~~~
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_6.png)
+
+Nos tenemos que crear la base de datos en la *máquina-2*:
+~~~
+mysql -u root –p
+mysql> CREATE DATABASE contactos;
+quit
+~~~
+
+Ahora los exportamos.
+
+~~~
+mysql -u root -p contactos < /tmp/ejemplodb.sql
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_7.png)
+
+Nos metemos en sql de la *máquina-2*.
+
+~~~
+mysql -u root –p
+use contactos;
+select * from datos;
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_8.png)
+
 
 **3.Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.**
 
