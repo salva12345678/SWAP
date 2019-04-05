@@ -57,12 +57,33 @@ La idea es que tenemos que tener en cuenta que los datos pueden estar actualizá
 Desde la *máquina-1* hacemos:
 
 ~~~
-
+mysql -u root –p
+FLUSH TABLES WITH READ LOCK;
+quit
 ~~~
 
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_4.png)
 
+Guardamos los datos.
 
+~~~
+mysqldump contactos -u root -p > /tmp/ejemplodb.sql
+~~~
 
+Como habíamos bloqueado las tablas, debemos desbloquearlas (quitar el “LOCK”):
+
+~~~
+mysql -u root –p
+mysql> UNLOCK TABLES;
+mysql> quit
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_5.png)
+
+Desde la *maquina-2*
+scp maquina1:/tmp/ejemplodb.sql /tmp/
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_6.png)
 
 **3.Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.**
 
