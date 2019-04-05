@@ -3,20 +3,77 @@
 
 Los objetivos concretos de esta práctica son:
 
-      1. Crear una BD con al menos una tabla y algunos datos.
-      2. Realizar la copia de seguridad de la BD completa usando mysqldump en lamáquina principal y copiar el archivo de copia de seguridad a la máquina
-      secundaria.
-      3. Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.
-      4. Realizar la configuración maestro-esclavo de los servidores MySQL para que la  replicación de datos se realice automáticamente.
+      **1.Crear una BD con al menos una tabla y algunos datos.**
+      **2.Realizar la copia de seguridad de la BD completa usando mysqldump en lamáquina principal y copiar el archivo de copia de seguridad a la máquina
+      secundaria.**
+      **3.Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.**
+      **4.Realizar la configuración maestro-esclavo de los servidores MySQL para que la  replicación de datos se realice automáticamente.**
 
 
+**1.Crear una BD con al menos una tabla y algunos datos.**
 
+Desde la *maquina-1* nos creamos una pequeña base de datos utilizando *MySQL*.Además de tener que introducir algunos datos para comprobar que nos funciona.
 
+Para conectarnos a *MySQL* tenemos que:
 
-
-
+~~~
+mysql -uroot -p
+~~~
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_1.png)
+
+Nos creamos la base de datos llamada *contactos* y dentro de ella nos crearemos la tablas.
+
+~~~
+create database contactos;
+use contactos;
+create table datos(nombre varchar(100),tlf int);
+show tables;
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_2.png)
+
+Vemos que nuestras tablas están vacias por lo que insertamos datos de prueba.
+
+~~~
+insert into datos(nombre,tlf) values ("pepe",95834987);
+insert into datos(nombre,tlf) values ("paco",65834887);
+insert into datos(nombre,tlf) values ("manuel",15854987);
+insert into datos(nombre,tlf) values ("salva",25834487);
+insert into datos(nombre,tlf) values ("fran",25852937);
+~~~
+
+Y ahora podemos ver las tablas
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_3.png)
+
+**2.Realizar la copia de seguridad de la BD completa usando mysqldump en lamáquina principal y copiar el archivo de copia de seguridad a la máquina
+secundaria.**
+
+
+
+
+
+
+
+
+**3.Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.**
+
+
+
+
+
+
+
+
+
+
+**4.Realizar la configuración maestro-esclavo de los servidores MySQL para que la  replicación de datos se realice automáticamente.**
+
+
+
+
+
 
 
       solo tocar la máquina-1 y maquina-2(backend)
