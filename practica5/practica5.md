@@ -47,7 +47,7 @@ Y ahora podemos ver las tablas
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_3.png)
 
-**2.Realizar la copia de seguridad de la BD completa usando mysqldump en lamáquina principal y copiar el archivo de copia de seguridad a la máquina
+**2.Realizar la copia de seguridad de la BD completa usando mysqldump en la máquina principal y copiar el archivo de copia de seguridad a la máquina
 secundaria.**
 
 MySQL ofrece la una herramienta para clonar las BD que tenemos en nuestra maquina. Esta herramienta es mysqldump.Mysqldump es parte de los programas de cliente de MySQL, que puede ser utilizado para generar copias de seguridad de BD.
@@ -134,3 +134,13 @@ select * from datos;
 
 
       solo tocar la máquina-1 y maquina-2(backend)
+
+
+      |  Memoria                                      | GDDR5                             | GDDR5X                                                                  | HBM                               | HBM2                                                                                                                    |
+      |-----------------------------------------------|-----------------------------------|-------------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+      | Fabricantes                                   | Samsung,Hynix,Elpida              | Micron                                                                  | Hynix,Samsumg                     | Samsung, Hynix                                                                                                          |
+      | Capacidad Máxima                              | 8GB                               | 16GB                                                                    | 1GB por die                       |  4GB / 8GB por die                                                                                                      |
+      | Velocidad Máxima                              | 8 Gbps                            | 10 to 14 Gbps (16 Gbps in future)                                       | 1 Gbps                            | 2.4 Gbps                                                                                                                |
+      | Ancho de Bus                                  | 32-bit per chip                   | 64-bit per chip                                                         | 1024-bit por die                  | 1024-bit por die or more                                                                                                |
+      | Consumo                                       | 1,5V                              | 1,5V                                                                    | Menos que la GDDR5                | Menos que el HBM                                                                                                        |
+      |  Tarjetas Gráficas   que usan   la tecnologia |  GT 740, GTX 1070,   RX 480, etc. |  GeForce GTX 1080,   GTX 1080 Ti,   GTX 1060,   Nvidia Titan X (Pascal) |  Radeon R9 Fury X, Radeon Pro Duo |  Nvidia Tesla P100,   Nvidia Quadro GP100,   Radeon RX Vega 56,   Radeon RX Vega 64,   Nvidia Titan V,   AMD Radeon VII |
