@@ -134,13 +134,3 @@ select * from datos;
 
 
       solo tocar la máquina-1 y maquina-2(backend)
-
-
-      |  Memoria                                      | GDDR5                             | GDDR5X                                                                  | HBM                               | HBM2                                                                                                                    |
-      |-----------------------------------------------|-----------------------------------|-------------------------------------------------------------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-      | Fabricantes                                   | Samsung,Hynix,Elpida              | Micron                                                                  | Hynix,Samsumg                     | Samsung, Hynix                                                                                                          |
-      | Capacidad Máxima                              | 8GB                               | 16GB                                                                    | 1GB por die                       |  4GB / 8GB por die                                                                                                      |
-      | Velocidad Máxima                              | 8 Gbps                            | 10 to 14 Gbps (16 Gbps in future)                                       | 1 Gbps                            | 2.4 Gbps                                                                                                                |
-      | Ancho de Bus                                  | 32-bit per chip                   | 64-bit per chip                                                         | 1024-bit por die                  | 1024-bit por die or more                                                                                                |
-      | Consumo                                       | 1,5V                              | 1,5V                                                                    | Menos que la GDDR5                | Menos que el HBM                                                                                                        |
-      |  Tarjetas Gráficas   que usan   la tecnologia |  GT 740, GTX 1070,   RX 480, etc. |  GeForce GTX 1080,   GTX 1080 Ti,   GTX 1060,   Nvidia Titan X (Pascal) |  Radeon R9 Fury X, Radeon Pro Duo |  Nvidia Tesla P100,   Nvidia Quadro GP100,   Radeon RX Vega 56,   Radeon RX Vega 64,   Nvidia Titan V,   AMD Radeon VII |
