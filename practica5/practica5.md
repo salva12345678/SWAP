@@ -47,8 +47,7 @@ Y ahora podemos ver las tablas
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_3.png)
 
-**2.Realizar la copia de seguridad de la BD completa usando mysqldump en la máquina principal y copiar el archivo de copia de seguridad a la máquina
-secundaria.**
+**2.Realizar la copia de seguridad de la BD completa usando mysqldump en la máquina principal y copiar el archivo de copia de seguridad a la máquina secundaria.**
 
 MySQL ofrece la una herramienta para clonar las BD que tenemos en nuestra maquina. Esta herramienta es mysqldump.Mysqldump es parte de los programas de cliente de MySQL, que puede ser utilizado para generar copias de seguridad de BD.
 
@@ -112,6 +111,13 @@ select * from datos;
 ~~~
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_8.png)
+
+
+También podemos hacer la orden directamente usando un “pipe” a unssh para exportar los datos al mismo tiempo (siempre y cuando en la máquina secundaria ya hubiéramos creado la BD):
+
+~~~
+mysqldump contactos -u root -p | ssh 192.168.1.102 mysql
+~~~
 
 
 **3.Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.**
