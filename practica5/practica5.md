@@ -77,6 +77,9 @@ mysql> UNLOCK TABLES;
 mysql> quit
 ~~~
 
+
+**3.Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.**
+
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_5.png)
 
 Desde la *maquina-2*.
@@ -113,30 +116,23 @@ select * from datos;
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_8.png)
 
 
-También podemos hacer la orden directamente usando un “pipe” a unssh para exportar los datos al mismo tiempo (siempre y cuando en la máquina secundaria ya hubiéramos creado la BD):
+
+También podemos hacer la orden directamente usando un “pipe” a un ssh para exportar los datos al mismo tiempo (siempre y cuando en la máquina secundaria ya hubiéramos creado la BD):
 
 ~~~
 mysqldump contactos -u root -p | ssh 192.168.1.102 mysql
 ~~~
 
 
-**3.Restaurar dicha copia de seguridad en la segunda máquina (clonado manual  de la BD), de forma que en ambas máquinas esté esa BD de forma idéntica.**
-
-
-
-
-
-
-
-
-
-
 **4.Realizar la configuración maestro-esclavo de los servidores MySQL para que la  replicación de datos se realice automáticamente.**
 
+Tenemos la opción de configurar el demonio para hacer replicación de las BD sobre un esclavo a partir de los datos que almacena el maestro.
 
 
+Se trata de un proceso automático que resulta muy adecuado en un entorno de producción real. Implica realizar algunas configuraciones, tanto en el servidor principal como en el secundario.
 
+Disponemos de la version 5.5
 
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_9.png)
 
-
-      solo tocar la máquina-1 y maquina-2(backend)
+Primero tenemos que configurar la información de
