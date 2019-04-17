@@ -131,8 +131,67 @@ Tenemos la opción de configurar el demonio para hacer replicación de las BD so
 
 Se trata de un proceso automático que resulta muy adecuado en un entorno de producción real. Implica realizar algunas configuraciones, tanto en el servidor principal como en el secundario.
 
-Disponemos de la version 5.5
+Disponemos de la version 5.7.25.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_9.png)
 
-Primero tenemos que configurar la información de
+Primero tenemos que configurar la información de */etc/mysql/mysql.conf.d/mysqld.cnf* teniendo que comentar el parámetro #bind-address 127.0.0.1
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_10.png)
+
+Ahora tenemos que descomentar la el parámetro *log_bin = /var/log/mysql/bin.log*.
+
+Guardamos el documento y reiniciamos el servicio:
+
+~~~
+/etc/init.d/mysql restart
+~~~
+
+Si no nos ha dado ningún error la configuración del maestro, podemos pasar a hacer la configuración del mysql del esclavo (editar como root su archivo de configuración).
+
+En este caso el server-id en esta ocasión será 2.La otra configuración es igual.
+
+Guardamos el documento y reiniciamos el servicio:
+
+~~~
+/etc/init.d/mysql restart
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_11.png)
+
+
+Podemos volver al maestro(*maquina-1*) para crear un usuario y darle permisos de acceso para la replicación.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_12.png)
+
+En el esclavo(*maquina-2*) entramos en mysql y le damos los datos del maestro.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_13.png)
+
+y arrancamos el esclavo:
+
+~~~
+mysql> START SLAVE;
+~~~
+
+Por último, volvemos al maestro y volvemos a activar las tablas para que puedan meterse nuevos datos en el maestro:
+
+~~~
+mysql> UNLOCK TABLES;
+~~~
+
+Ahora, si queremos asegurarnos de que todo funciona perfectamente y que el esclavo no tiene ningún problema para replicar la información, nos vamos al esclavo y con la siguiente orden:
+
+~~~
+mysql> SHOW SLAVE STATUS\G
+~~~
+
+Vemos que la variable **Seconds_Behind_Master** es 0 y por lo tanto ya nos funciona la configuración de *maestro-esclavo*.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_14.png)
+
+Ahora solo tenemos que introducir los datos y ver como se van replicando.
+
+Metemos datos de ejemplo y como podemos ver en la imagen vemos que se va replicando.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_15.png)
