@@ -316,18 +316,66 @@ curl http://10.211.130.121/hola.html
 
 **6.2.Despligue Básico de DOCKER**
 
-Antes de crear nuestros primeros contenedores Docker en [DOCKER]( https://hub.docker.com/) podemos consultar una lista de miles de contenedores preconfigurados ylistos para instalarse.
+Antes de crear nuestros primeros contenedores Docker en [DOCKER-OFICIAL]( https://hub.docker.com/) podemos consultar una lista de miles de contenedores preconfigurados y listos para instalarse.
 
+Un ejemplo de ello seria que podemos buscar contenedores destinados a nginx.Hasta podemos encontrar la version oficial de nginx.
 
+~~~
+docker search nginx
+~~~
 
-https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_25.png)
 
-https://profesorweb.es/wp-content/uploads/2017/10/tema3_iso_virtualizacion.pdf
+Creamos un contenedor de nginx.
+~~~
+docker run --name c1 nginx
+~~~
 
-https://www.campusmvp.es/recursos/post/Docker-vs-Vagrant-diferencias-y-similitudes-y-cuando-usar-cada-uno.aspx
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_26.png)
 
-https://www.networkworld.es/m2m/que-es-un-hipervisor
+Para los contenedores que tenemos que:
+~~~
+docker ps -a
+~~~
 
-http://www.datakeeper.es/?p=716
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_27.png)
 
-https://blog.smaldone.com.ar/2008/09/20/virtualizacion-de-hardware/
+Para levantar la imagen solo tenemos que:
+~~~
+docker start c1 (nombre del contenedor)
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_28.png)
+
+También podemos el consumo de cada contenedor:
+~~~
+docker stats
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_29.png)
+
+Para acceder al contenedor simplemente tenemos que acceder por bash.
+~~~
+docker exec -it c1 bash
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_30.png)
+
+Para parar el contenedor :
+~~~
+docker stop c1
+~~~
+
+Y borrarlo:
+~~~
+docker rm c1
+~~~
+
+De la misma forma podemos crear un balanceador como hemos visto en LXD.
+
+[Contenedores-LXD](https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc)
+[Contenedores-LXD](https://profesorweb.es/wp-content/uploads/2017/10/tema3_iso_virtualizacion.pdf)
+[Contenedores-LXD](https://www.campusmvp.es/recursos/post/Docker-vs-Vagrant-diferencias-y-similitudes-y-cuando-usar-cada-uno.aspx)
+[Contenedores-LXD](https://www.networkworld.es/m2m/que-es-un-hipervisor)
+[Contenedores-LXD](http://www.datakeeper.es/?p=716)
+[Contenedores-LXD](https://blog.smaldone.com.ar/2008/09/20/virtualizacion-de-hardware/)
