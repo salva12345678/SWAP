@@ -373,6 +373,9 @@ docker rm c1
 
 De la misma forma podemos crear un balanceador como hemos visto en LXD.
 
+
+## REFERENCIAS.
+
 [Contenedores-LXD](https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc)
 
 [Virtualización](https://profesorweb.es/wp-content/uploads/2017/10/tema3_iso_virtualizacion.pdf)
