@@ -3,7 +3,7 @@
 ## JOSE MIGUEL PELEGRINA PELEGRINA
 
 
-# 1.VIRTUALIZACIÓN
+## 1.VIRTUALIZACIÓN
 
 La virtualización crea un entorno informático simulado, o virtual, en lugar de un entorno físico. A menudo, incluye versiones de hardware, sistemas operativos, dispositivos de almacenamiento, etc., generadas por un equipo. Esto permite a las organizaciones particionar un equipo o servidor físico en varias máquinas virtuales. Cada máquina virtual puede interactuar de forma independiente y ejecutar sistemas operativos o aplicaciones diferentes mientras comparten los recursos de una sola máquina host.
 
@@ -50,13 +50,24 @@ Al crear varios recursos a partir de un único equipo o servidor, la virtualizac
 
 ## 2.HIPERVISOR
 
-un hipervisor es un proceso que separa el sistema operativo de unordenador y las aplicaciones del hardware físico subyacente. Normalmente se hace como software, aunque se pueden crear hipervisores integrados para cosas como dispositivos móviles.
+Un hipervisor es un proceso que separa el sistema operativo de unordenador y las aplicaciones del hardware físico subyacente. Normalmente se hace como software, aunque se pueden crear hipervisores integrados para cosas como dispositivos móviles.
 
 El hipervisor dirige el concepto de virtualización al permitir que la máquina física opere múltiples máquinas virtuales como invitados para ayudar a maximizar el uso efectivo de los recursos informáticos, como la memoria, el ancho de banda de la red y los ciclos de la CPU.
 
+**Beneficios de los hipervisores**
 
+A pesar de que las máquinas virtuales pueden ejecutarse en el mismo hardware físico, todavía están lógicamente separadas entre sí. Esto significa que si una VM experimenta un error, un bloqueo o un ataque de malware, no se extiende a otras máquinas virtuales en la misma máquina o incluso a otras máquinas.
 
+Las VM también son móviles, ya que son independientes del hardware subyacente, se pueden mover o migrar entre servidores virtualizados remotos o locales mucho más fácilmente que las aplicaciones tradicionales que están vinculadas al hardware físico.
 
+**Tipos de Hipervisores**
+
+Podemos encontrar fundamentalmente dos tipos:
+
+        *Tipo-1*. Los hipervisores tipo 1, a veces denominados hipervisores "nativos" o "bare metal", se ejecutan directamente en el hardware del host para controlar el hardware y administrar las máquinas virtuales invitadas. Los hipervisores modernos incluyen Xen, Oracle VM Server para SPARC, Oracle VM Server para x86, Microsoft Hyper-V y VMware ESX / ESXi.
+
+        *Tipo-2*.Los hipervisores tipo 2, a veces llamados "hipervisores hospedados", se ejecutan en un sistema operativo convencional, al igual que otras aplicaciones en el sistema. En este caso, un sistema operativo invitado se ejecuta como un proceso en el host, mientras que los hipervisores separan el sistema operativo invitado del sistema operativo host. Entre los ejemplos de hipervisores Tipo 2 se incluyen VMware Workstation, VMware Player, VirtualBox y Parallels Desktop para Mac.
+        
 
 
 En el mundo de la virtualización podemos encontrar diferentes tipos de técnicas por las cuales podemos obtener bastantes ventajas unas respecto a otras:
