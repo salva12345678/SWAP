@@ -62,11 +62,25 @@ Las VM también son móviles, ya que son independientes del hardware subyacente,
 
 **Tipos de Hipervisores**
 
-Podemos encontrar fundamentalmente dos tipos:
+Podemos encontrar fundamentalmente tres tipos:
 
-        Tipo-1.Los hipervisores tipo 1, a veces denominados hipervisores "nativos" o "bare metal", se ejecutan directamente en el hardware del host para controlar el hardware y administrar las máquinas virtuales invitadas. Los hipervisores modernos incluyen Xen, Oracle VM Server para SPARC, Oracle VM Server para x86, Microsoft Hyper-V y VMware ESX / ESXi.
 
-        Tipo-2.Los hipervisores tipo 2, a veces llamados "hipervisores hospedados", se ejecutan en un sistema operativo convencional, al igual que otras aplicaciones en el sistema. En este caso, un sistema operativo invitado se ejecuta como un proceso en el host, mientras que los hipervisores separan el sistema operativo invitado del sistema operativo host. Entre los ejemplos de hipervisores Tipo 2 se incluyen VMware Workstation, VMware Player, VirtualBox y Parallels Desktop para Mac.
+
+Tipo-1.Los hipervisores tipo 1, a veces denominados hipervisores "nativos" o "bare metal", se ejecutan directamente en el hardware del host para controlar el hardware y administrar las máquinas virtuales invitadas. Los hipervisores modernos incluyen Xen, Oracle VM Server para SPARC, Oracle VM Server para x86, Microsoft Hyper-V y VMware ESX / ESXi.
+
+
+
+Tipo-2.Los hipervisores tipo 2, a veces llamados "hipervisores hospedados", se ejecutan en un sistema operativo convencional, al igual que otras aplicaciones en el sistema. En este caso, un sistema operativo invitado se ejecuta como un proceso en el host, mientras que los hipervisores separan el sistema operativo invitado del sistema operativo host. Entre los ejemplos de hipervisores Tipo 2 se incluyen VMware Workstation, VMware Player, VirtualBox y Parallels Desktop para Mac.
+
+Hipervisores híbridos.En este modelo tanto el sistema operativo anfitrión como el hipervisor interactúan directamente con el hardware físico.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/Foto_1.png)
+
+
+
+
+
+
 
 
 
@@ -107,3 +121,5 @@ https://profesorweb.es/wp-content/uploads/2017/10/tema3_iso_virtualizacion.pdf
 https://www.campusmvp.es/recursos/post/Docker-vs-Vagrant-diferencias-y-similitudes-y-cuando-usar-cada-uno.aspx
 
 https://www.networkworld.es/m2m/que-es-un-hipervisor
+
+http://www.datakeeper.es/?p=716
