@@ -74,7 +74,7 @@ Tipo-2.Los hipervisores tipo 2, a veces llamados "hipervisores hospedados", se e
 
 Hipervisores híbridos.En este modelo tanto el sistema operativo anfitrión como el hipervisor interactúan directamente con el hardware físico.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/Foto_1.png)
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_1.png)
 
 
 
