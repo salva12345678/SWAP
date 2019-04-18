@@ -180,10 +180,13 @@ Las ventaja de los contenedores frente a las máquinas virtuales tradicionales e
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_11.png)
 
+Vagrant es una herramienta que nos ayuda a crear y manejar máquinas virtuales con un mismo entorno de trabajo. Nos permite definir los servicios a instalar así como también sus configuraciones. Está pensado para trabajar en entornos locales y lo podemos utilizar con shell scripts, Chef, Puppet o Ansible.
 
+Cabe destacar que vagrant no tiene la capacidad para correr una maquina virtual sino que simplemente se encarga de las características con las que debe crearse esa VM y los complementos a instalar. Para poder trabajar con las máquinas virtuales es necesario que también instalamos VirtualBox , Docker o hyper-v.
 
+Como hemos venido mencionado vagrant sirve para ayudarnos a crear y configurar máquinas virtuales con determinadas características y componentes. La gran ventaja de vagrant es que posee un archivo de configuración Vagrantfile donde se centraliza toda la configuración de la VM que creamos. Lo genial de vagrant es que puedes utilizar el vagrantfile para crear una VM exactamente igual cuantas veces quieras y es super liviano lo puedes agregar a tu repo o enviar por mail a tus compañeros de trabajo.
 
-
+Vagrant no está pensado para trabajar con grandes cantidades de máquinas virtuales, para infraestructuras más complejas existen otras herramientas como Terraform que pertenece a la misma empresa HashiCorp.
 
 [VAGRANT](https://www.vagrantup.com/)
 
