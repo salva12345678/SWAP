@@ -374,8 +374,13 @@ docker rm c1
 De la misma forma podemos crear un balanceador como hemos visto en LXD.
 
 [Contenedores-LXD](https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc)
-[Contenedores-LXD](https://profesorweb.es/wp-content/uploads/2017/10/tema3_iso_virtualizacion.pdf)
-[Contenedores-LXD](https://www.campusmvp.es/recursos/post/Docker-vs-Vagrant-diferencias-y-similitudes-y-cuando-usar-cada-uno.aspx)
-[Contenedores-LXD](https://www.networkworld.es/m2m/que-es-un-hipervisor)
-[Contenedores-LXD](http://www.datakeeper.es/?p=716)
-[Contenedores-LXD](https://blog.smaldone.com.ar/2008/09/20/virtualizacion-de-hardware/)
+
+[Virtualización](https://profesorweb.es/wp-content/uploads/2017/10/tema3_iso_virtualizacion.pdf)
+
+[Docker](https://www.campusmvp.es/recursos/post/Docker-vs-Vagrant-diferencias-y-similitudes-y-cuando-usar-cada-uno.aspx)
+
+[Hipervisor](https://www.networkworld.es/m2m/que-es-un-hipervisor)
+
+[Clasificacion-Hipervisores](http://www.datakeeper.es/?p=716)
+
+[Virtualización-Hardware](https://blog.smaldone.com.ar/2008/09/20/virtualizacion-de-hardware/)
