@@ -213,10 +213,99 @@ Mostramos una tabla camparativa con las principales características de la virtu
 
 **6.1.Despligue Básico de LXD**
 
+Antes de crear nuestros primeros contenedores LXD nos da la opción de listar todas las imágenes que podemos descargar.
 
+~~~
+lxc image list images:
+~~~
 
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_15.png)
 
+Podemos entre las miles de posibilidades que tenemos de imagenes.
 
+Vamos a crear diferentes contenedores de cualquier versión de ubuntu.
+
+~~~
+lxc launch ubuntu:16.04 u1
+~~~
+
+Lo primero que hará será descargar la imagen de ubuntu 16.04 a menos que ya se hubiera descargado anteriormente.
+
+Para ver que imágenes tenemos ya descargadas:
+
+~~~
+lxc image list
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_16.png)
+
+Para ver que contenedores nos hemos creado :
+
+~~~
+lxc list
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_17.png)
+
+En el caso que tengamos varios contenedores con similares en vez de crearnos otro podemos copiarlo de otro contenedor ya desplegado.
+
+~~~
+lxc copy u1 u2
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_18.png)
+
+Podemos observar que el nuevo contenedor está creado pero tenemos que iniciarlo.
+
+~~~
+lxc start u2
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_19.png)
+
+En el caso que queremos destruir el contenedor tendríamos primero que pararlo y borrarlo.
+
+~~~
+lxc stop u2
+lxc delete u2
+~~~
+
+Para acceder al contenedor simplemente tenemos que acceder por bash.
+
+~~~
+lxc exec u1 bash
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_20.png)
+
+Ahora para demostrar que las máquinas pueden verse vamos a instalar el apache2 en cada contenedor y vamos a crearnos en fichero como se hizo en la práctica-1.
+
+Las IP de cada contenedor las podemos obtener de :
+
+~~~
+lxc list
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_21.png)
+
+Ahora solo tenemos que hacer un curl y ver que se están viendo para ambas máquinas.
+
+~~~
+curl http://10.211.130.228/hola.html
+curl http://10.211.130.99/hola.html
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_22.png)
+
+Como ultima parte vamos a configurar un balanceador de carga para que veamos que contenedores también es posible usarlo como hemos visto en las practicas pero como máquinas virtuales.
+
+Nos hemos creado dos nuevos contenedores que uno de ellos será el balanceador de carga y el otro el usuario.
+
+Ahora que lo tenemos instalado podemos hacer la configuración del balanceador.Para ello nos tenemos que ir al fichero /etc/nginx/conf.d/default.conf.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_23.png)
+
+Finalmente ya podemos ver el funcionamiento del balanceador de carga.
 
 
 https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc
