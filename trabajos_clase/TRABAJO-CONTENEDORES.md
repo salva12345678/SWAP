@@ -176,8 +176,16 @@ Las ventaja de los contenedores frente a las máquinas virtuales tradicionales e
 [LXD](https://linuxcontainers.org/)
 
 
+### 4.4.VAGRANT.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_11.png)
 
 
+
+
+
+
+[VAGRANT](https://www.vagrantup.com/)
 
 
 
