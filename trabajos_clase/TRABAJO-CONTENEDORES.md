@@ -158,8 +158,35 @@ Docker le proporciona una manera estándar de ejecutar su código. Docker es un 
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_8.png)
 
-
 [Docker](https://www.docker.com/)
+
+
+### 4.3.LXD(Linux containers).
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_9.png)
+
+Aparentemente en un contenedor se ejecuta un sistema operativo GNU/Linux independiente de otros contenedores y del propio SO anfitrión. Se trata de un producto de la virtualización pero, en lugar de utilizar máquinas virtuales dentro de las cuales se ejecuta un sistema operativo que puede ser diferente del anfitrión, aquí se utilizan técnicas de virtualización a nivel de sistema operativo. De modo que sólo hay un núcleo, en nuestro caso el Linux que se ejecuta en el equipo anfitrión, que mediante diferentes funciones (namespaces, cgroups, ...) muestra vistas parciales a algunos procesos para que crean que se ejecutan en un sistema aislado.
+
+Así que el sistema anfitrión y todos los contenedores utilizan el mismo núcleo. En el sistema anfitrión se pueden ver todos los procesos y en cada uno de los contenedores únicamente los propios. La red, la raíz del sistema de archivos, los ficheros de dispositivo y otros recursos también están virtualizados así que cada contenedor puede tener su propia interfaz de red y sistema de archivos raíz. Incluso es posible que un contenedor utilice una distribución de GNU/Linux diferente del resto pero, eso sí, compartiendo el único núcleo que se ejecuta en el equipo anfitrión.
+
+Las ventaja de los contenedores frente a las máquinas virtuales tradicionales es la eficiencia. Un contenedor es mucho más ligero pues no necesita recrear el hardware de la máquina virtual ni ejecutar dentro otro sistema operativo. Los procesos que se ejecutan en un contenedor al fin y al cabo son procesos nativos del equipo anfitrión. Por lo tanto se consigue un mayor rendimiento y es posible ejecutar en un mismo ordenador un número mucho mayor de contenedores que de máquinas virtuales.El inconveniente de los contenedores frente a la virtualización completa asistida por hardware es que se apoya en Linux y todos los contenedores deben ejecutar una distribución de GNU/Linux.
+
+
+[Docker](https://linuxcontainers.org/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc
