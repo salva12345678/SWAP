@@ -80,6 +80,8 @@ Hipervisores híbridos.En este modelo tanto el sistema operativo anfitrión como
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_1.png)
 
+## 3.TIPOS DE VIRTUALIZACIÓN.
+
 En el mundo de la virtualización podemos encontrar diferentes tipos de técnicas por las cuales podemos obtener bastantes ventajas unas respecto a otras:
 
       Virtualización de hardware
@@ -114,9 +116,6 @@ OpenVZ, Docker, Virtuozzo, Chroot Jails, LXC, etc.
 La virtualización completa es similar a la paravirtualización pero no requiere que los sistemas operativos guest colaboren con el hypervisor. En plataformas como la x86 existen algunos inconvenientes para lograr la virtualización completa, que son solucionados con las últimas tecnologías propuestas por AMD e Intel.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_5.png)
-
-
-![img](https://github.com/salva12345678/SWAP/blob/master/practica1/Foto_1.png)
 
 
 [Enlace del producto](https://www.pccomponentes.com/msi-mpg-z390-gaming-plus)
