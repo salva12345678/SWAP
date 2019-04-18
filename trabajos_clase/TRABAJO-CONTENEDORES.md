@@ -117,8 +117,38 @@ La virtualización completa es similar a la paravirtualización pero no requiere
 
 ## 4.HERRAMIENTAS Y PRODUCTOS PARA LA VIRTUALIZACIÓN.
 
-### 4.1.VMWARE
+### 4.1.Workstation Player (VMware).
 
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_6.png)
+
+Es una aplicación de virtualización de escritorios para uso personal. Se puede aplicar una licencia comercial para que Workstation Player ejecute las máquinas virtuales restringidas creadas por VMware Workstation Pro y Fusion Pro.Mware Workstation Player se basa en la misma plataforma que VMware Workstation Pro y vSphere, lo que la convierte en la solución más estable y consolidada para la virtualización de escritorios locales.
+
+Con VMware Workstation Player podrá aislar los escritorios corporativos de los dispositivos BYOD desactivando las funciones de copiar y pegar, arrastrar y soltar, las carpetas compartidas y el acceso a los dispositivos USB.
+
+Las funciones de aislamiento y entorno de pruebas de VMware Workstation Player lo convierten en la herramienta perfecta para aprender todo lo que necesita saber sobre sistemas operativos, aplicaciones y su funcionamiento. El hecho de ejecutar un entorno de servidor en un PC de escritorio también le permite explorar el desarrollo de software y aplicaciones en un entorno real sin interferir con el escritorio host.
+
+Ejecute un segundo escritorio seguro con distintos ajustes de privacidad, herramientas y configuraciones de red para garantizar la seguridad de su sistema host mientras navega en línea.
+
+Compatabilidad con la mayoria de los sistemas operativos actuales como:
+
+
+    Windows 10
+    Windows 8.X
+    Windows 7
+    Windows XP
+    Ubuntu
+    Red Hat
+    SUSE
+    Oracle Linux
+    Debian
+    Fedora
+    openSUSE
+    Mint
+    CentOS
+
+
+
+[Workstation Player](https://www.vmware.com/es/products/workstation-player.html)
 
 
 
