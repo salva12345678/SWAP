@@ -171,8 +171,9 @@ Así que el sistema anfitrión y todos los contenedores utilizan el mismo núcle
 
 Las ventaja de los contenedores frente a las máquinas virtuales tradicionales es la eficiencia. Un contenedor es mucho más ligero pues no necesita recrear el hardware de la máquina virtual ni ejecutar dentro otro sistema operativo. Los procesos que se ejecutan en un contenedor al fin y al cabo son procesos nativos del equipo anfitrión. Por lo tanto se consigue un mayor rendimiento y es posible ejecutar en un mismo ordenador un número mucho mayor de contenedores que de máquinas virtuales.El inconveniente de los contenedores frente a la virtualización completa asistida por hardware es que se apoya en Linux y todos los contenedores deben ejecutar una distribución de GNU/Linux.
 
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_10.png)
 
-[Docker](https://linuxcontainers.org/)
+[LXD](https://linuxcontainers.org/)
 
 
 
