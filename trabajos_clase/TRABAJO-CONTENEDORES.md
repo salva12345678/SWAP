@@ -3,6 +3,7 @@
 ## JOSE MIGUEL PELEGRINA PELEGRINA
 
 
+# 1.VIRTUALIZACIÓN
 
 La virtualización crea un entorno informático simulado, o virtual, en lugar de un entorno físico. A menudo, incluye versiones de hardware, sistemas operativos, dispositivos de almacenamiento, etc., generadas por un equipo. Esto permite a las organizaciones particionar un equipo o servidor físico en varias máquinas virtuales. Cada máquina virtual puede interactuar de forma independiente y ejecutar sistemas operativos o aplicaciones diferentes mientras comparten los recursos de una sola máquina host.
 
@@ -45,6 +46,19 @@ Al crear varios recursos a partir de un único equipo o servidor, la virtualizac
       Dado que los servidores virtuales corren en una capa intermedia a la del hardware real el rendimiento será inferior que mediante el uso de servidores tradicionales.
       Por otro lado, si instalas muchas máquinas virtuales en un solo servidor físico acabarás saturando el mismo, lo cual también implicará una reducción considerable del rendimiento. Es importante que solo se creen las máquinas virtuales indispensables, ni una más.
 
+
+
+## 2.HIPERVISOR
+
+un hipervisor es un proceso que separa el sistema operativo de unordenador y las aplicaciones del hardware físico subyacente. Normalmente se hace como software, aunque se pueden crear hipervisores integrados para cosas como dispositivos móviles.
+
+El hipervisor dirige el concepto de virtualización al permitir que la máquina física opere múltiples máquinas virtuales como invitados para ayudar a maximizar el uso efectivo de los recursos informáticos, como la memoria, el ancho de banda de la red y los ciclos de la CPU.
+
+
+
+
+
+
 En el mundo de la virtualización podemos encontrar diferentes tipos de técnicas por las cuales podemos obtener bastantes ventajas unas respecto a otras:
 
       Virtualización completa del hardware o nativa.
@@ -53,17 +67,17 @@ En el mundo de la virtualización podemos encontrar diferentes tipos de técnica
 
 
 
-#VIRTUALIZACIÓN COMPLETA DEL HARDWARE O NATIVA.
+##VIRTUALIZACIÓN COMPLETA DEL HARDWARE O NATIVA.
 
 VMWare Server, XenServer, VMWare ESX
 VIRTUALBOX
 
 
-#VIRTUALIZACIÓN DE EMULACIÓN DE HARDWARE O NO NATIVA.
+##VIRTUALIZACIÓN DE EMULACIÓN DE HARDWARE O NO NATIVA.
 
 Xen
 
-#VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
+##VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
 
 OpenVZ, Docker, Virtuozzo, Chroot Jails, LXC, etc.
 
@@ -80,3 +94,5 @@ https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc
 https://profesorweb.es/wp-content/uploads/2017/10/tema3_iso_virtualizacion.pdf
 
 https://www.campusmvp.es/recursos/post/Docker-vs-Vagrant-diferencias-y-similitudes-y-cuando-usar-cada-uno.aspx
+
+https://www.networkworld.es/m2m/que-es-un-hipervisor
