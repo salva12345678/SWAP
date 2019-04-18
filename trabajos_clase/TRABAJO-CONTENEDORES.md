@@ -188,10 +188,24 @@ Como hemos venido mencionado vagrant sirve para ayudarnos a crear y configurar m
 
 Vagrant no está pensado para trabajar con grandes cantidades de máquinas virtuales, para infraestructuras más complejas existen otras herramientas como Terraform que pertenece a la misma empresa HashiCorp.
 
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_12.png)
+
 [VAGRANT](https://www.vagrantup.com/)
 
 
+## 5.DIFERENCIAS ENTRE VAGRANT Y DOCKER
 
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_13.png)
+
+Vagrant utiliza una arquitectura mucho más simple que Docker. Utiliza máquinas virtuales para ejecutar entornos independientes de la máquina host. Esto se hace utilizando lo que se denomina software de "virtualización", como VirtualBox o VMware . Cada entorno tiene su propia máquina virtual y se configura mediante el uso de Vagrantfile. El Vagrantfile indica a Vagrant cómo configurar la máquina virtual y qué scripts deben ejecutarse para aprovisionar el entorno.
+
+El inconveniente de este enfoque es que cada máquina virtual incluye no solo su aplicación y todas sus bibliotecas, sino también todo el sistema operativo invitado, que puede tener un tamaño de decenas de GB.
+
+Docker, sin embargo, utiliza "contenedores" que incluyen su aplicación y todas sus dependencias, pero comparten el kernel (sistema operativo) con otros contenedores. Los contenedores se ejecutan como procesos aislados en el sistema operativo host, pero no están vinculados a ninguna infraestructura específica (se pueden ejecutar en cualquier computadora).
+
+Es posible utilizar Vagrant para crear un entorno capaz de ejecutar Docker dentro de éste y así desplegar una aplicación.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_14.png)
 
 
 
