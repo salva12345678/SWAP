@@ -90,20 +90,20 @@ En el mundo de la virtualización podemos encontrar diferentes tipos de técnica
       Virtualización completa (full virtualization)
 
 
-##VIRTUALIZACIÓN DE HARDWARE
+## VIRTUALIZACIÓN DE HARDWARE
 
 Este es el tipo de virtualización más complejo de lograr. Consiste en emular, mediante máquinas virtuales, los componentes de hardware. De esta manera el sistema operativo no se ejecuta sobre el hardware real sino sobre el virtual.
 
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_2.png)
 
-##PARAVIRTUALIZACIÓN
+## PARAVIRTUALIZACIÓN
 
 La paravirtualización consiste en ejecutar sistemas operativos guests sobre otro sistema operativo que actúa como hipervisor (host). Los guests tienen que comunicarse con el hypervisor para lograr la virtualización.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_3.png)
 
-##VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
+## VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
 
 Este es el otro extremo de la virtualización. En este esquema no se virtualiza el hardware y se ejecuta una única instancia del sistema operativo (kernel). Los distintos procesos perteneciente a cada servidor virtual se ejecutan aislados del resto.
 
@@ -111,11 +111,16 @@ Este es el otro extremo de la virtualización. En este esquema no se virtualiza 
 
 OpenVZ, Docker, Virtuozzo, Chroot Jails, LXC, etc.
 
-##VIRTUALIZACIÓN COMPLETA
+## VIRTUALIZACIÓN COMPLETA
 
 La virtualización completa es similar a la paravirtualización pero no requiere que los sistemas operativos guest colaboren con el hypervisor. En plataformas como la x86 existen algunos inconvenientes para lograr la virtualización completa, que son solucionados con las últimas tecnologías propuestas por AMD e Intel.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_5.png)
+
+
+
+
+
 
 
 [Enlace del producto](https://www.pccomponentes.com/msi-mpg-z390-gaming-plus)
