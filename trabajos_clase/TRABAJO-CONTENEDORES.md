@@ -109,15 +109,15 @@ Este es el otro extremo de la virtualización. En este esquema no se virtualiza 
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_4.png)
 
-OpenVZ, Docker, Virtuozzo, Chroot Jails, LXC, etc.
-
 ## VIRTUALIZACIÓN COMPLETA
 
 La virtualización completa es similar a la paravirtualización pero no requiere que los sistemas operativos guest colaboren con el hypervisor. En plataformas como la x86 existen algunos inconvenientes para lograr la virtualización completa, que son solucionados con las últimas tecnologías propuestas por AMD e Intel.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_5.png)
 
+## 4.HERRAMIENTAS Y PRODUCTOS PARA LA VIRTUALIZACIÓN.
 
+### 4.1.VMWARE
 
 
 
