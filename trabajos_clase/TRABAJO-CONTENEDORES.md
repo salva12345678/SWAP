@@ -67,7 +67,9 @@ Podemos encontrar fundamentalmente tres tipos:
 
 
 Tipo-1.Los hipervisores tipo 1, a veces denominados hipervisores "nativos" o "bare metal", se ejecutan directamente en el hardware del host para controlar el hardware y administrar las máquinas virtuales invitadas. Los hipervisores modernos incluyen Xen, Oracle VM Server para SPARC, Oracle VM Server para x86, Microsoft Hyper-V y VMware ESX / ESXi.
-
+A su vez podemos encontrar dos tipos.
+        Monolíticos: son hipervisores que emulan hardware para sus máquinas virtuales.Este funcionamiento obliga a desarrollar drivers específicos para el hipervisor de cada componente hardware.
+        De MicroKernel: en esta aproximación el hipervisor se reduce a una capa de software muy sencilla, cuya única funcionalidad es la de particionar el sistema físico entre los diversos sistemas virtualizados.Con esta manera de funcionar los hipervisores de microkernel no requieren de drivers específicos para acceder al hardware.
 
 
 Tipo-2.Los hipervisores tipo 2, a veces llamados "hipervisores hospedados", se ejecutan en un sistema operativo convencional, al igual que otras aplicaciones en el sistema. En este caso, un sistema operativo invitado se ejecuta como un proceso en el host, mientras que los hipervisores separan el sistema operativo invitado del sistema operativo host. Entre los ejemplos de hipervisores Tipo 2 se incluyen VMware Workstation, VMware Player, VirtualBox y Parallels Desktop para Mac.
