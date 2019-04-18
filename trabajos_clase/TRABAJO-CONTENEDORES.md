@@ -314,7 +314,9 @@ curl http://10.211.130.121/hola.html
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_24.png)
 
 
+**6.2.Despligue Básico de DOCKER**
 
+Antes de crear nuestros primeros contenedores Docker en [DOCKER]( https://hub.docker.com/) podemos consultar una lista de miles de contenedores preconfigurados ylistos para instalarse.
 
 
 
