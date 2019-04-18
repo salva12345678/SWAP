@@ -64,10 +64,10 @@ Las VM también son móviles, ya que son independientes del hardware subyacente,
 
 Podemos encontrar fundamentalmente dos tipos:
 
-        *Tipo-1*. Los hipervisores tipo 1, a veces denominados hipervisores "nativos" o "bare metal", se ejecutan directamente en el hardware del host para controlar el hardware y administrar las máquinas virtuales invitadas. Los hipervisores modernos incluyen Xen, Oracle VM Server para SPARC, Oracle VM Server para x86, Microsoft Hyper-V y VMware ESX / ESXi.
+        Tipo-1.Los hipervisores tipo 1, a veces denominados hipervisores "nativos" o "bare metal", se ejecutan directamente en el hardware del host para controlar el hardware y administrar las máquinas virtuales invitadas. Los hipervisores modernos incluyen Xen, Oracle VM Server para SPARC, Oracle VM Server para x86, Microsoft Hyper-V y VMware ESX / ESXi.
 
-        *Tipo-2*.Los hipervisores tipo 2, a veces llamados "hipervisores hospedados", se ejecutan en un sistema operativo convencional, al igual que otras aplicaciones en el sistema. En este caso, un sistema operativo invitado se ejecuta como un proceso en el host, mientras que los hipervisores separan el sistema operativo invitado del sistema operativo host. Entre los ejemplos de hipervisores Tipo 2 se incluyen VMware Workstation, VMware Player, VirtualBox y Parallels Desktop para Mac.
-        
+        Tipo-2.Los hipervisores tipo 2, a veces llamados "hipervisores hospedados", se ejecutan en un sistema operativo convencional, al igual que otras aplicaciones en el sistema. En este caso, un sistema operativo invitado se ejecuta como un proceso en el host, mientras que los hipervisores separan el sistema operativo invitado del sistema operativo host. Entre los ejemplos de hipervisores Tipo 2 se incluyen VMware Workstation, VMware Player, VirtualBox y Parallels Desktop para Mac.
+
 
 
 En el mundo de la virtualización podemos encontrar diferentes tipos de técnicas por las cuales podemos obtener bastantes ventajas unas respecto a otras:
