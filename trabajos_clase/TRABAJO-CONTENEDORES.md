@@ -307,7 +307,11 @@ Ahora que lo tenemos instalado podemos hacer la configuración del balanceador.P
 
 Finalmente ya podemos ver el funcionamiento del balanceador de carga.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_23.png)
+~~~
+curl http://10.211.130.121/hola.html
+~~~
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_24.png)
 
 
 
