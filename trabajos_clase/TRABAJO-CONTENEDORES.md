@@ -205,9 +205,13 @@ Docker, sin embargo, utiliza "contenedores" que incluyen su aplicación y todas 
 
 Es posible utilizar Vagrant para crear un entorno capaz de ejecutar Docker dentro de éste y así desplegar una aplicación.
 
+Mostramos una tabla camparativa con las principales características de la virtualización.
+
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_14.png)
 
+## 6.PROCESO DE DESPLIEGUE DE DOCKER Y LXD.
 
+**6.1.Despligue Básico de LXD**
 
 
 
