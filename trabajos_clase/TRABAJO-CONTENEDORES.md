@@ -146,14 +146,20 @@ Compatabilidad con la mayoria de los sistemas operativos actuales como:
     Mint
     CentOS
 
-
-
 [Workstation Player](https://www.vmware.com/es/products/workstation-player.html)
 
+### 4.2.DOCKER.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_7.png)
+
+Docker es una plataforma de software que le permite crear, probar e implementar aplicaciones rápidamente. Docker empaqueta software en unidades estandarizadas llamadas contenedores que incluyen todo lo necesario para que el software se ejecute, incluidas bibliotecas, herramientas de sistema, código y tiempo de ejecución. Con Docker, puede implementar y ajustar la escala de aplicaciones rápidamente en cualquier entorno con la certeza de saber que su código se ejecutará.
+
+Docker le proporciona una manera estándar de ejecutar su código. Docker es un sistema operativo para contenedores. De manera similar a cómo una máquina virtual virtualiza (elimina la necesidad de administrar directamente) el hardware del servidor, los contenedores virtualizan el sistema operativo de un servidor. Docker se instala en cada servidor y proporciona comandos sencillos que puede utilizar para crear, iniciar o detener contenedores.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_8.png)
 
 
-
-[Enlace del producto](https://www.pccomponentes.com/msi-mpg-z390-gaming-plus)
+[Docker](https://www.docker.com/)
 
 
 https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc
