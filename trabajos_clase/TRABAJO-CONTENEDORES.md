@@ -301,11 +301,17 @@ Como ultima parte vamos a configurar un balanceador de carga para que veamos que
 
 Nos hemos creado dos nuevos contenedores que uno de ellos será el balanceador de carga y el otro el usuario.
 
-Ahora que lo tenemos instalado podemos hacer la configuración del balanceador.Para ello nos tenemos que ir al fichero /etc/nginx/conf.d/default.conf.
+Ahora que lo tenemos instalado podemos hacer la configuración del balanceador.Para ello nos tenemos que ir al fichero /etc/haproxy/haproxy.cfg.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_23.png)
 
 Finalmente ya podemos ver el funcionamiento del balanceador de carga.
+
+![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_23.png)
+
+
+
+
 
 
 https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc
