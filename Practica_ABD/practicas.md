@@ -22,8 +22,15 @@
 
 3.Ampliar a 100 M el tamaño de DATA01.dbf.
 
+        alter database datafile '/databases/app/ejercicios/data/data01.dbf' resize 100 m;
+
 4.Crear una tabla llamada prueba_data en DATA.
 
+        create table prueba_data (a number) tablespace data;
+
 5.Cambiar el nombre al datafile de RONLY;
+
+        El profesor se ha creado una copia donde /databases/app/ejercicios/data/ de ronly01.dbf y la copia se llama ronly001.dbf.
+        cp ronly01.dbf ronly001.dbf 
 
 6.Eliminar el tablespace RONLY y borrar sus ficheros.
