@@ -31,6 +31,13 @@
 5.Cambiar el nombre al datafile de RONLY;
 
         El profesor se ha creado una copia donde /databases/app/ejercicios/data/ de ronly01.dbf y la copia se llama ronly001.dbf.
-        cp ronly01.dbf ronly001.dbf 
+        cp ronly01.dbf ronly001.dbf
+        alter tablespace data offline;
+        alter tablespace ronly rename datafile '/databases/app/ejercicios/data/ronly01.dbf' to '/data/app/ejercicios/data/ronly001.dbf';
+        alter tablespace ronly online
+        rm ronly001.dbf (en el directorio /databases/app/ejercicios/data)
+
 
 6.Eliminar el tablespace RONLY y borrar sus ficheros.
+
+        drop tablespace ronly; 
