@@ -2,7 +2,7 @@
 
 ## 4.Estructura  del  Almacenamiento  de  Oracle.
 
-## Tablespaces
+## Tablespaces.
 
 1.Crear la carpeta /databases/app/ejercicios/data.
 
@@ -47,7 +47,7 @@
         Hay que borrar manualmente los ficheros al final
 
 
-## Segmentos, Extensiones y Bloques
+## Segmentos, Extensiones y Bloques.
 
 1.Identificar los distintos tipos de segmentos que hay en la BD.
 
@@ -92,3 +92,6 @@
 4.Mostar la información sobre Bob y Kay y sobre sus límites de espacio en los tablespaces correspondientes.
 
         select username, tablespace_name, max_bytes from dba_ts_quotas where username in ('BOB', 'KAY');
+
+
+## Perfiles.
