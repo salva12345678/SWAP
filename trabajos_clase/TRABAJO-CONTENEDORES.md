@@ -7,9 +7,28 @@
 ### 1.VIRTUALIZACIÓN.
 ### 2.HIPERVISOR.
 ### 3.TIPOS DE VIRTUALIZACIÓN.
+####3.1.VIRTUALIZACIÓN DE HARDWARE.
+####3.2.PARAVIRTUALIZACIÓN.
+####3.3.VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
+####3.4.VIRTUALIZACIÓN COMPLETA.
 ### 4.HERRAMIENTAS Y PRODUCTOS PARA LA VIRTUALIZACIÓN.
-### 5.DIFERENCIAS ENTRE VAGRANT Y DOCKER
+####3.1.
+####3.2.
+####3.3.
+####3.4.
+### 5.DIFERENCIAS ENTRE VAGRANT Y DOCKER.
+####3.1.
+####3.2.
+####3.3.
+####3.4.
 ### 6.PROCESO DE DESPLIEGUE DE DOCKER Y LXD.
+####6.1.
+####6.2.
+
+
+
+
+
 
 
 
@@ -101,26 +120,26 @@ En el mundo de la virtualización podemos encontrar diferentes tipos de técnica
       Virtualización completa (full virtualization)
 
 
-## VIRTUALIZACIÓN DE HARDWARE
+## 3.1.VIRTUALIZACIÓN DE HARDWARE.
 
 Este es el tipo de virtualización más complejo de lograr. Consiste en emular, mediante máquinas virtuales, los componentes de hardware. De esta manera el sistema operativo no se ejecuta sobre el hardware real sino sobre el virtual.
 
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_2.png)
 
-## PARAVIRTUALIZACIÓN
+## 3.2.PARAVIRTUALIZACIÓN.
 
 La paravirtualización consiste en ejecutar sistemas operativos guests sobre otro sistema operativo que actúa como hipervisor (host). Los guests tienen que comunicarse con el hypervisor para lograr la virtualización.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_3.png)
 
-## VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
+## 3.3.VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
 
 Este es el otro extremo de la virtualización. En este esquema no se virtualiza el hardware y se ejecuta una única instancia del sistema operativo (kernel). Los distintos procesos perteneciente a cada servidor virtual se ejecutan aislados del resto.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_4.png)
 
-## VIRTUALIZACIÓN COMPLETA
+## 3.4.VIRTUALIZACIÓN COMPLETA.
 
 La virtualización completa es similar a la paravirtualización pero no requiere que los sistemas operativos guest colaboren con el hypervisor. En plataformas como la x86 existen algunos inconvenientes para lograr la virtualización completa, que son solucionados con las últimas tecnologías propuestas por AMD e Intel.
 
