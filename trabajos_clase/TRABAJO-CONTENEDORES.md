@@ -6,34 +6,25 @@
 
 ### 1.VIRTUALIZACIÓN.
 ### 2.HIPERVISOR.
+#### 2.1.Beneficios de los hipervisores.
+#### 2.2.Tipos de Hipervisores.
 ### 3.TIPOS DE VIRTUALIZACIÓN.
-####3.1.VIRTUALIZACIÓN DE HARDWARE.
-####3.2.PARAVIRTUALIZACIÓN.
-####3.3.VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
-####3.4.VIRTUALIZACIÓN COMPLETA.
+#### 3.1.VIRTUALIZACIÓN DE HARDWARE.
+#### 3.2.PARAVIRTUALIZACIÓN.
+#### 3.3.VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
+#### 3.4.VIRTUALIZACIÓN COMPLETA.
 ### 4.HERRAMIENTAS Y PRODUCTOS PARA LA VIRTUALIZACIÓN.
-####3.1.
-####3.2.
-####3.3.
-####3.4.
+#### 4.1.Workstation Player (VMware).
+#### 4.2.DOCKER.
+#### 4.3.LXD(Linux containers).
+#### 4.4.VAGRANT.
 ### 5.DIFERENCIAS ENTRE VAGRANT Y DOCKER.
-####3.1.
-####3.2.
-####3.3.
-####3.4.
 ### 6.PROCESO DE DESPLIEGUE DE DOCKER Y LXD.
-####6.1.
-####6.2.
+#### 6.1.Despligue Básico de LXD.
+#### 6.2.Despligue Básico de DOCKER.
+### REFERENCIAS.
 
-
-
-
-
-
-
-
-
-## 1.VIRTUALIZACIÓN
+## 1.VIRTUALIZACIÓN.
 
 La virtualización crea un entorno informático simulado, o virtual, en lugar de un entorno físico. A menudo, incluye versiones de hardware, sistemas operativos, dispositivos de almacenamiento, etc., generadas por un equipo. Esto permite a las organizaciones particionar un equipo o servidor físico en varias máquinas virtuales. Cada máquina virtual puede interactuar de forma independiente y ejecutar sistemas operativos o aplicaciones diferentes mientras comparten los recursos de una sola máquina host.
 
@@ -84,17 +75,15 @@ Un hipervisor es un proceso que separa el sistema operativo de unordenador y las
 
 El hipervisor dirige el concepto de virtualización al permitir que la máquina física opere múltiples máquinas virtuales como invitados para ayudar a maximizar el uso efectivo de los recursos informáticos, como la memoria, el ancho de banda de la red y los ciclos de la CPU.
 
-**Beneficios de los hipervisores**
+### 2.1.Beneficios de los hipervisores.
 
 A pesar de que las máquinas virtuales pueden ejecutarse en el mismo hardware físico, todavía están lógicamente separadas entre sí. Esto significa que si una VM experimenta un error, un bloqueo o un ataque de malware, no se extiende a otras máquinas virtuales en la misma máquina o incluso a otras máquinas.
 
 Las VM también son móviles, ya que son independientes del hardware subyacente, se pueden mover o migrar entre servidores virtualizados remotos o locales mucho más fácilmente que las aplicaciones tradicionales que están vinculadas al hardware físico.
 
-**Tipos de Hipervisores**
+### 2.2.Tipos de Hipervisores.
 
 Podemos encontrar fundamentalmente tres tipos:
-
-
 
 Tipo-1.Los hipervisores tipo 1, a veces denominados hipervisores "nativos" o "bare metal", se ejecutan directamente en el hardware del host para controlar el hardware y administrar las máquinas virtuales invitadas. Los hipervisores modernos incluyen Xen, Oracle VM Server para SPARC, Oracle VM Server para x86, Microsoft Hyper-V y VMware ESX / ESXi.
 
@@ -120,26 +109,26 @@ En el mundo de la virtualización podemos encontrar diferentes tipos de técnica
       Virtualización completa (full virtualization)
 
 
-## 3.1.VIRTUALIZACIÓN DE HARDWARE.
+### 3.1.VIRTUALIZACIÓN DE HARDWARE.
 
 Este es el tipo de virtualización más complejo de lograr. Consiste en emular, mediante máquinas virtuales, los componentes de hardware. De esta manera el sistema operativo no se ejecuta sobre el hardware real sino sobre el virtual.
 
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_2.png)
 
-## 3.2.PARAVIRTUALIZACIÓN.
+### 3.2.PARAVIRTUALIZACIÓN.
 
 La paravirtualización consiste en ejecutar sistemas operativos guests sobre otro sistema operativo que actúa como hipervisor (host). Los guests tienen que comunicarse con el hypervisor para lograr la virtualización.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_3.png)
 
-## 3.3.VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
+### 3.3.VIRTUALIZACIÓN A NIVEL DE SISTEMA OPERATIVO.
 
 Este es el otro extremo de la virtualización. En este esquema no se virtualiza el hardware y se ejecuta una única instancia del sistema operativo (kernel). Los distintos procesos perteneciente a cada servidor virtual se ejecutan aislados del resto.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_4.png)
 
-## 3.4.VIRTUALIZACIÓN COMPLETA.
+### 3.4.VIRTUALIZACIÓN COMPLETA.
 
 La virtualización completa es similar a la paravirtualización pero no requiere que los sistemas operativos guest colaboren con el hypervisor. En plataformas como la x86 existen algunos inconvenientes para lograr la virtualización completa, que son solucionados con las últimas tecnologías propuestas por AMD e Intel.
 
@@ -241,7 +230,7 @@ Mostramos una tabla camparativa con las principales características de la virtu
 
 ## 6.PROCESO DE DESPLIEGUE DE DOCKER Y LXD.
 
-**6.1.Despligue Básico de LXD**
+### 6.1.Despligue Básico de LXD
 
 Antes de crear nuestros primeros contenedores LXD nos da la opción de listar todas las imágenes que podemos descargar.
 
@@ -344,7 +333,7 @@ curl http://10.211.130.121/hola.html
 ![img](https://github.com/salva12345678/SWAP/blob/master/trabajos_clase/foto_24.png)
 
 
-**6.2.Despligue Básico de DOCKER**
+### 6.2.Despligue Básico de DOCKER
 
 Antes de crear nuestros primeros contenedores Docker en [DOCKER-OFICIAL]( https://hub.docker.com/) podemos consultar una lista de miles de contenedores preconfigurados y listos para instalarse.
 
