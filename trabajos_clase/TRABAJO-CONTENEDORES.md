@@ -22,7 +22,7 @@
 ### 6.PROCESO DE DESPLIEGUE DE DOCKER Y LXD.
 #### 6.1.Despligue Básico de LXD.
 #### 6.2.Despligue Básico de DOCKER.
-### REFERENCIAS.
+### 7.REFERENCIAS.
 
 ## 1.VIRTUALIZACIÓN.
 
@@ -393,7 +393,7 @@ docker rm c1
 De la misma forma podemos crear un balanceador como hemos visto en LXD.
 
 
-## REFERENCIAS.
+## 7.REFERENCIAS.
 
 [Contenedores-LXD](https://elpuig.xeill.net/Members/vcarceler/articulos/contenedores-con-lxd-lxc)
 
