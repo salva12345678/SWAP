@@ -27,6 +27,8 @@ El esquemático del circuito sería.
 
 ## 2.2.PCB.
 
+![img](https://github.com/salva12345678/SWAP/blob/master/foto_5.jpeg)
+
 ![img](https://github.com/salva12345678/SWAP/blob/master/foto_4.jpeg)
 
 ## 2.3.Librerias.
