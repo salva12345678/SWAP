@@ -27,7 +27,7 @@ El esquemático del circuito sería.
 
 ## 2.2.PCB.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/foto_4.png)
+![img](https://github.com/salva12345678/SWAP/blob/master/foto_4.jpeg)
 
 ## 2.3.Librerias.
 
@@ -78,25 +78,25 @@ void imprimeRojo();
 
                                // 0xx0xx00 54
 
-define C {62, 65, 65, 65, 34}
+#define C {62, 65, 65, 65, 34}
 
-define D {127, 65, 65, 34, 28}
+#define D {127, 65, 65, 34, 28}
 
-define E {127, 73, 73, 65, 65}
+#define E {127, 73, 73, 65, 65}
 
-define F {127, 72, 72, 72, 64}
+#define F {127, 72, 72, 72, 64}
 
-define G {62, 65, 65, 69, 38}
+#define G {62, 65, 65, 69, 38}
 
-define H {127, 8, 8, 8, 127}
+#define H {127, 8, 8, 8, 127}
 
-define I {0, 65, 127, 65, 0}
+#define I {0, 65, 127, 65, 0}
 
-define J {2, 1, 1, 1, 126}
+#define J {2, 1, 1, 1, 126}
 
-define K {127, 8, 20, 34, 65}
+#define K {127, 8, 20, 34, 65}
 
-define L {127, 1, 1, 1, 1}
+#define L {127, 1, 1, 1, 1}
 
 #define M {127, 32, 16, 32, 127}
 
