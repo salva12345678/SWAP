@@ -2,13 +2,11 @@
 ## Juan Salvador Molina Martín
 
 ### 1.Introducción.
-
 ### 2.Desarrollo.
 ###    2.1.Lista de componentes.
 ###    2.2.PCB.
 ###    2.3.Librerias.
-### 3.Funcionamiento.
-### 4.Código del sistema del ARDUINO.
+### 3.Código del sistema del ARDUINO.
 
 ## 1.Introducción.
 
@@ -38,7 +36,7 @@ El único componente del que no teníamos librería era la matriz de led. El pro
 Las otras librerías que hemos usado son 74xx-eu para el 74HC595, SparkFun-Boards para el Arduino y resistor para las resistencias.
 
 
-## 4.Código del sistema del ARDUINO.
+## 3.Código del sistema del ARDUINO.
 
 int pinLatch = 6;    //Pin para el latch de los 74CH595
 
