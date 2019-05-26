@@ -19,10 +19,15 @@ El esquemático del circuito sería.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/foto_1.png)
 
+![img](https://github.com/salva12345678/SWAP/blob/master/foto_2.png)
 
+## 2.1.Lista de componentes.
 
+![img](https://github.com/salva12345678/SWAP/blob/master/foto_3.png)
 
+## 2.2.PCB.
 
+## 2.3.Librerias.
 
 
 
