@@ -17,7 +17,7 @@ Consiste en la simulación, programación, test y desarrollo de la PCB para el m
 ### 2.Desarrollo.
 El esquemático del circuito sería.
 
-![img](https://github.com/salva12345678/SWAP/blob/master/practica5/foto_1.png)
+![img](https://github.com/salva12345678/SWAP/blob/master/foto_1.png)
 
 
 
