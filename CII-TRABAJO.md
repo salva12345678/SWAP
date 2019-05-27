@@ -21,6 +21,15 @@ El esquemático del circuito sería.
 
 ## 2.1.Lista de componentes.
 
+| Nombre                                                      | Cantidad | Ref.Fabricante   |
+|-------------------------------------------------------------|----------|------------------|
+| DIP Sockets Solder Tail -16-Pin 0.3                         | 1        | 1-2199298-4      |
+| DISPLAY,2.3",8X8,RED COM.ANODE                              | 1        | TA23-11EWA       |
+| METAL FILM RESISTOR,220 OHM 1W,5%                           | 8        | MCMF01WJJ0221A10 |
+| Registro de desplazamiento de 8 bits Serie a serie/Paralelo | 1        | 74HC59N,112      |
+|                                                             |          |                  |
+|                                                             |          |                  |
+
 ![img](https://github.com/salva12345678/SWAP/blob/master/foto_3.png)
 
 ## 2.2.PCB.
