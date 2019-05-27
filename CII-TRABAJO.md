@@ -27,6 +27,8 @@ El esquemático del circuito sería.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/foto_5.jpeg)
 
+![img](https://github.com/salva12345678/SWAP/blob/master/foto_6.jpeg)
+
 ![img](https://github.com/salva12345678/SWAP/blob/master/foto_4.jpeg)
 
 ## 2.3.Librerias.
@@ -60,23 +62,7 @@ void imprimeRojo();
 
 #define A {31, 36, 68, 36, 31} // xxxxx000 31
 
-                               // 00x00x00 36
-
-                               // 00x000x0 68
-
-                               // 00x00x00 36
-
-                               // xxxxx000 31
-
 #define B {127, 73, 73, 73, 54}// xxxxxxx0 127
-
-                               // x00x00x0 73
-
-                               // x00x00x0 73
-
-                               // x00x00x0 73
-
-                               // 0xx0xx00 54
 
 #define C {62, 65, 65, 65, 34}
 
