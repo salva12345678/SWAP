@@ -30,8 +30,6 @@ El esquemático del circuito sería.
 |                                                             |          |                  |
 |                                                             |          |                  |
 
-![img](https://github.com/salva12345678/SWAP/blob/master/foto_3.png)
-
 ## 2.2.PCB.
 
 ![img](https://github.com/salva12345678/SWAP/blob/master/foto_5.jpeg)
